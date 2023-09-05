@@ -1,0 +1,22 @@
+[tool.poetry]
+name = "stock-data-project"
+version = "0.1.0"
+description = "Project to store stock market data"
+authors = ["personal <griffj147@gmail.com>"]
+readme = "README.md"
+
+[tool.poetry.dependencies]
+python = "^3.10"
+pandas = "^2.1.0"
+alpaca-trade-api = "^3.0.2"
+
+
+[tool.poetry.group.dev.dependencies]
+black = "^23.7.0"
+flake8 = "^6.1.0"
+isort = "^5.12.0"
+pytest = "^7.4.1"
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
